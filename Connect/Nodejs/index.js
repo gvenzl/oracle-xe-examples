@@ -2,9 +2,9 @@ var oracledb = require('oracledb');
 
 oracledb.getConnection(
   {
-    user          : "system",
-    password      : "GetStarted18c",
-    connectString : "//localhost:1521/XEPDB1"
+    user          : "system", // {username}
+    password      : "GetStarted18c", // {password}
+    connectString : "//localhost:1521/XEPDB1" //{hostname}:{port}/{DB name}
   },
   function(err, connection) {
     if (err) {
