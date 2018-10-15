@@ -8,4 +8,3 @@ Oracle Database Express Edition (XE) samples and scripts
 | [restart.sh](restart.sh)  | Java based examples |
 | [shutdown.sh](shutdown.sh) | JavaScript based examples |
 | [startup.sh](startup.sh) | Oracle Optmizer and Optimizer Stats examples |
-
